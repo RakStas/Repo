@@ -22,7 +22,7 @@ public class frequencyOfChar {
             int count = Collections.frequency(list, each);
             System.out.print (each+count);
         }
-
+//fghj
 
 
 
