@@ -2,6 +2,7 @@ package Day37_ArrayList_BulkOperations_Predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.function.Predicate;
 
 public class Lambla_Expression {
@@ -30,6 +31,28 @@ public class Lambla_Expression {
         names.addAll(Arrays.asList("Marina", "Margarita", "Marusiya", "Moldova", "Moroz", "Alina"));
         names.removeIf(  each->each.startsWith("M") &&each.endsWith("a") );
         System.out.println(names);
+
+        System.out.println();
+        System.out.println("==============");
+        System.out.println();
+        ArrayList <Integer >nums = new ArrayList<>();
+        nums.addAll(Arrays.asList(1,1,2,2,3,4,5,6,6,7,7,8,9));
+        nums.removeIf(p-> Collections.frequency(nums, p)!=1);
+        System.out.println(nums);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
