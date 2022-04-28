@@ -7,7 +7,7 @@ import java.util.Collections;
 public class Grade_Report {
     public static void main(String[] args) {
         ArrayList<Integer>list=new ArrayList<>();
-        list.addAll(Arrays.asList(-22,58,98,66,99,78,45, 85,105,-5));
+        list.addAll(Arrays.asList(-22,58,98,66,99,78,45, 85,105,-5, 55,89,66,58,999,45,22,6,98,56,78,54,12,588,58));
         //90~100 Grade A
         // 70~89 Grade B
         // 60~79 Grade C
@@ -50,8 +50,12 @@ public class Grade_Report {
         System.out.println("Wrong grade is: "+gradeErr);
 
 
-
-
+        System.out.println(gradeA.size()+" students has A");
+        System.out.println(gradeB.size()+" students has B");
+        System.out.println(gradeC.size()+" students has C");
+        System.out.println(gradeD.size()+" students has D");
+        System.out.println(gradeE.size()+" students has E");
+        System.out.println(gradeErr.size()+ " students fail");
 
 
 
