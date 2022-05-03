@@ -1,8 +1,7 @@
-package Day_38Java_Recap;
+package Day38Java_Recap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Grade_Report {
     public static void main(String[] args) {
