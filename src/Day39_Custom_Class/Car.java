@@ -18,8 +18,12 @@ public class Car {
         mileage=carMileage;
 
     }
-    public  void setCarInfo(int caryear, ){
+    public  void setCarInfo(){
+        System.out.println(year+", "+model+", "+brand+", $"+price);
 
     }
+public void start(){
+    System.out.println(brand+" was born in "+year+"  and has "+mileage+" km");
+}
 
 }

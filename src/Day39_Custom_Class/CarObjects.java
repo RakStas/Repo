@@ -33,6 +33,8 @@ public class CarObjects {
         Car car4=new Car();
         car4.carInfo("Jeep", "Wrangler", "Blue", 40000, 2019, 40000);
 
+            car3.setCarInfo();
+            car4.setCarInfo();
 
 
 
