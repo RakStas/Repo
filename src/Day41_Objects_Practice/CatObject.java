@@ -30,7 +30,7 @@ public class CatObject {
 
         ArrayList<Cat>femaleCat=new ArrayList<>();
         ArrayList<Cat>maleCat=new ArrayList<>();
-
+/*
         for(int i=0; i<=catPark.length-1; i++){
             if(catPark[i].gender=='M'){
                 count++;
@@ -38,10 +38,17 @@ public class CatObject {
                 }else {
                 femaleCat.add(catPark[i]);
             }
+        }*/
+
+
+        for(Cat each: catPark){
+            if(each.gender=='M'){
+                maleCat.add(each);
+            }else femaleCat.add(each);
         }
-
         System.out.println(femaleCat);
-
+        System.out.println("=================");
+        System.out.println(maleCat);
 
     }
 }
