@@ -19,8 +19,8 @@ public class Cat {
     }
 
     public String toString(){
-        return "My Cat has name "+Name+"\nIt is "+breed+" type"+"\nIt is "
-        +age+" Cat Color is "+color+"\nCat is "+gender;
+        return "\nMy Cat has name "+Name+"\nIt is "+breed+" type"+"\nIt is "
+        +age+" Cat Color is "+color+"\nCat is "+gender+"\n";
 
     }
     public void eat(String catFood){
