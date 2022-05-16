@@ -9,39 +9,39 @@ public class ScramTeam {
     String PO;
     String BA;
     String SM;
+
     public void setInfo(String PO, String BA, String SM){
         this.PO=PO;
         this.BA=BA;
         this.SM=SM;
     }
-
     public void addTester(Tester tester){
-            testers.add(tester);
+        testers.add(tester);
         }
-    public void addTesters(Tester []testers){
+    public void addTesters(Tester [] testers){
         if(testers.length==0){
             return;
         }
-                this.testers.addAll(Arrays.asList(testers));
+            this.testers.addAll(Arrays.asList(testers));
         }
     public void removeTester(int ID){
-            testers.removeIf(p->p.ID==007);
+            testers.removeIf(p->p.ID==ID);
         }
-
     public void addDeveloper(Developer developer){
         developers.add(developer);
         }
-
-
-    public void addDevelopers(Developer []developers){
+    public void addDeveloper(Developer []developers){
         if(developers.length==0){
             return;
         }
         this.developers.addAll(Arrays.asList(developers));
         }
+    public void removeDeveloper(int ID) {
+        developers.removeIf(p -> p.ID==ID);
+    }
 
-    public void removeDeveloper(int ID){
-        developers.removeIf(p->p.ID==005);
+    public String toSting(){
+        return "PO name is "+ PO+ "; BA name is "+BA+"; SM name is "+SM;
     }
 
 
