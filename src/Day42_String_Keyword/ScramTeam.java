@@ -15,9 +15,10 @@ public class ScramTeam {
         this.BA=BA;
         this.SM=SM;
     }
-    public void addTester(Tester tester){
+    public void addTester(Tester  tester){
         testers.add(tester);
-        }
+
+    }
     public void addTesters(Tester [] testers){
         if(testers.length==0){
             return;
@@ -41,7 +42,8 @@ public class ScramTeam {
     }
 
     public String toSting(){
-        return "PO name is "+ PO+ "; BA name is "+BA+"; SM name is "+SM;
+        return testers.size()+" testers;\n"+developers.size()+" developers;"+
+                "\nPO name is "+ PO+ "; BA name is "+BA+"; SM name is "+SM+";";
     }
 
 
