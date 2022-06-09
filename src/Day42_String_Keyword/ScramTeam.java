@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ScramTeam {
-    ArrayList<Tester>testers=new ArrayList<>();
+    /*ArrayList<Tester>testers=new ArrayList<>();
     ArrayList<Developer>developers=new ArrayList<>();
     String PO;
     String BA;
@@ -43,7 +43,7 @@ public class ScramTeam {
 
     public String toSting(){
         return testers.size()+" testers;\n"+developers.size()+" developers;"+
-                "\nPO name is "+ PO+ "; BA name is "+BA+"; SM name is "+SM+";";
+                "\nPO name is "+ PO+ "; BA name is "+BA+"; SM name is "+SM+";";*/
     }
 
 
@@ -63,4 +63,4 @@ public class ScramTeam {
 
 
 
-}
+

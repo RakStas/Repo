@@ -3,7 +3,7 @@ package Day42_String_Keyword;
 import java.util.Arrays;
 
 public class CapitalOne {
-    public static void main(String[] args) {
+    public static void main(String[] args) {/*
 
 
         Tester[] testers = {new Tester(), new Tester(), new Tester()};
@@ -68,5 +68,5 @@ public class CapitalOne {
         ScramTeam scramTeam=new ScramTeam();
 
 
-    }
+   */ }
 }

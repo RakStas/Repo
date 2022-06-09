@@ -4,7 +4,7 @@ public class FrequencyOfCharacters {
     public static void main(String[] args) {
      String str = "aaabbbccfftgggh";
      String result ="";
-     String nonDup =  Util.removeDuplicate(str);
+     String nonDup =  Util.removeDup(str);
 
      System.out.println(result);
       for (char each : nonDup.toCharArray()){

@@ -13,7 +13,7 @@ public class frequencyOfChar {
         for (String each:str.split("")){
             list.add(each);
         }
-        String  nonDup= Util.removeDuplicate(str);
+        String  nonDup= Util.removeDup(str);
 
 
 

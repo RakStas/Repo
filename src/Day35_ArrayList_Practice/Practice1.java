@@ -47,7 +47,7 @@ public class Practice1 {
         System.out.println("Task #3");
         String [] line={"A", "B", "C"};
         String [] line1={"D","E", "F" };
-        String totalyLine[] =Util.TwoArraysInOneArr(line, line1);
+        String totalyLine[] =Util.combine2Arrays(line, line1);
         ArrayList<String >arr2= new ArrayList<String>(Arrays.asList(totalyLine));
         System.out.println("ArrayList is "+arr2);
 

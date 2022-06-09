@@ -4,12 +4,12 @@ public class MethodCalls {
     public static void main(String[] args) {
     String firstName="Emilichka";
     String lastName = "StaniSlaVivNa";
-    String fullName = Util.FormatFull_name(firstName, lastName);
+    String fullName = Util.formatFullName(firstName, lastName);
         System.out.println(fullName);
         String uniq=Util.uniques(fullName);
         System.out.println(uniq);
 
-        String nonDup = Util.removeDuplicate(fullName);
+        String nonDup = Util.removeDup(fullName);
         System.out.println(nonDup);
 
     }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-class tester{
+class tester{/*
     String name;
     int ID;
     String jobTitle;
@@ -170,7 +170,8 @@ class capitalone {
         System.out.println(team2.toSting());
 
         ScramTeam scramTeam = new ScramTeam();
-    }
+   }*/
 }
 public class WarmUp {
+
 }
