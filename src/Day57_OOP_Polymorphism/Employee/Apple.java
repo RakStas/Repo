@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Apple {
     public static void main(String[] args) {
-        Employee tester1 = new Tester("Stas", "QA", 123, 1000, 'm');
+       /* Employee tester1 = new Tester("Stas", "QA", 123, 1000, 'm');
         Employee tester2 = new Tester("2Stas2", "QA2", 1234, 2000, 'm');
         Employee tester3 = new Tester("3Stas3", "QA3", 12345, 3000, 'm');
 
@@ -20,6 +20,6 @@ public class Apple {
             System.out.println(each);
         }
 
-    }
+    */}
 
 }

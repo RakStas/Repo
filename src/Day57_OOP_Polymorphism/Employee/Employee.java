@@ -7,7 +7,7 @@ public String name, jobTitle;
     public char gender;
     public abstract void work();
 
-    public Employee(String name, String jobTitle, long id, int salary, char gender) {
+    public Employee(String name, long id, String jobTitle,  int salary, char gender) {
         this.name = name;
         this.jobTitle = jobTitle;
         this.id = id;

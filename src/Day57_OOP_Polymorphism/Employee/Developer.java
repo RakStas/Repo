@@ -1,8 +1,8 @@
 package Day57_OOP_Polymorphism.Employee;
 
 public class Developer extends Employee{
-    public Developer(String name, String jobTitle, long id, int salary, char gender) {
-        super(name, jobTitle, id, salary, gender);
+    public Developer(String name, long id, String jobTitle,  int salary, char gender) {
+        super(name, id,  jobTitle,  salary, gender);
     }
 
     @Override
